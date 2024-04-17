@@ -11,7 +11,7 @@
 
     <div class=" container mx-auto flex w-full ">
         
-            <div class="first w-[20%] p-4">
+            <div class="first xl:w-[20%] p-4 pr-6">
                 <div class="logo invert mb-4 ">
                     <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
                 </div>
@@ -21,44 +21,48 @@
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 home
-                                </span> Home
+                                </span><span class="hidden xl:block"> Home</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 search
-                                </span> Explor
+                                </span><span class="hidden xl:block"> Explor</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 notifications
-                                </span> Notifications
+                                </span><span class="hidden xl:block"> Notifications</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 mail
-                                </span> Messages
+                                </span><span class="hidden xl:block"> Messages</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 add
-                                </span> Groks
+                                </span><span class="hidden xl:block"> Groks</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 list
-                                </span> Lists
+                                </span><span class="hidden xl:block"> Lists</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 person
-                                </span> Profile
+                                </span><span class="hidden xl:block"> Profile</span>
                             </li>
                             <li class="flex gap-3 items-center text-xl  py-2  px-4 w-fit hover:bg-gray-600 hover:rounded-3xl hover:cursor-pointer ">
                                 <span class="material-symbols-outlined text-3xl ">
                                 more
-                                </span> More
+                                </span><span class="hidden xl:block"> More</span>
                             </li>
                         </ul>
+
+                        <button class="bg-blue-500 px-8 py-3 rounded-full text-white">
+                            Post
+                        </button>
 
                 </div>
             </div>
@@ -77,7 +81,7 @@
             <div class="whathapp">
                 <div class="img flex">
                     <img src="https://pbs.twimg.com/profile_images/1758520740285206528/jSb2g1oe_normal.jpg" alt="" class="m-2">
-                    <input type="text" placeholder="what is happening?!" class=" rounded-full bg-black text-white px-4 outline-none">
+                    <input type="text" placeholder="what is happening?!" class=" rounded-full bg-black text-white pl-4 outline-none w-1/2">
                 </div>
                 <div class="  icondiv flex justify-around text-blue-500 pl-15 items-center mb-3">
                    <div class="icons">
@@ -122,7 +126,7 @@
             </div>
             <div class="h-[1px] w-full bg-gray-700"></div>
             <div class="post flex w-full p-2">
-                <div class="dp">
+                <div class="dp p-1">
                     <img src="https://pbs.twimg.com/profile_images/1758520740285206528/jSb2g1oe_normal.jpg" alt="">
                 </div>
                 <div class="user">
@@ -174,14 +178,14 @@
                     <span class="font-bold">Spidy Developer</span>
                     <span class="text-gray-600">@abhishekPrajapati.</span>
                     <span class="text-gray-600">6h</span>
-                    <p>Don't overpay on Amazon again! This Amazon shopping hack is like Prime Day on steroids.</p>
+                    <p>Don't overpay on Amazon again! This Amazon shopping hack .</p>
                     
                 </div>
                 <div class="dot pl-48 text-lg text-gray-600 items-center">...</div>
             </div>
            
             <div class="postimg">
-                <div class="img p-4 pl-8 "><video src="https://videos.pexels.com/video-files/2231485/2231485-uhd_3840_2160_24fps.mp4 " controls></video></div>
+                <div class="img p-4 pl-8 "><video class="rounded-xl" src="https://videos.pexels.com/video-files/2231485/2231485-uhd_3840_2160_24fps.mp4 " controls autoplay muted loop></video></div>
                       
                 <div class="icon flex text-sm items-center text-gray-600 px-4 pl-8 justify-around pb-2">
                     <span class="material-symbols-outlined text-lg text-gray-600">
@@ -222,7 +226,7 @@
                     <span class="font-bold">Spidy Developer</span>
                     <span class="text-gray-600">@abhishekPrajapati.</span>
                     <span class="text-gray-600">6h</span>
-                    <p>Our team of 4 is bringing you an exciting mix of intense bullet hell combat with a unique morphing mechanic in our upcoming Sci-fi TPS : PROJECT TOWE</p>
+                    <p>Our team of 4 is bringing you an exciting mix  </p>
                     
                 </div>
                 <div class="dot pl-48 text-lg text-gray-600 items-center">...</div>
@@ -310,13 +314,13 @@
 
             <div class="wh0 bg-gray-900  my-4 ml-8 rounded-xl pb-4">
                 <h1 class="text-xl font-bold px-2 py-2">Who to follow</h1>
-                <div class="contentCard  px-2 py-[-30px] hover:bg-gray-800 hover:cursor-pointer mb-[-20px]">
+                <div class="contentCard py-4  px-2   hover:bg-gray-800 hover:cursor-pointer ">
                     <div class="flex items-center space-x-12 ">
                         <div class="profileContent flex items-center ">
                             <div class="img rounded-full ">
-                                <img src="lg.png" alt="">
+                                <img class="rounded-full" src="https://pbs.twimg.com/profile_images/1758520740285206528/jSb2g1oe_normal.jpg" alt="">
                             </div>
-                            <div class="content">
+                            <div class="content px-2">
                                 <p class="text-sm">Abhishek Prajapati  <span class="text-sm text-blue-600 material-symbols-outlined text-3xl ">
                                     verified
                                     </span></p>
@@ -331,13 +335,13 @@
                 </div>
 
 
-                <div class="contentCard  px-2 py-[-30px] hover:bg-gray-800 hover:cursor-pointer mb-[-20px]">
+                <div class="contentCard py-4  px-2 hover:bg-gray-800 hover:cursor-pointer ">
                     <div class="flex items-center space-x-12 ">
                         <div class="profileContent flex items-center ">
                             <div class="img rounded-full ">
-                                <img src="lg.png" alt="">
+                                <img class="rounded-full" src="https://pbs.twimg.com/profile_images/1765421507029958658/ABdRIGuT_normal.jpg" alt="">
                             </div>
-                            <div class="content">
+                            <div class="content px-2">
                                 <p class="text-sm">M.S Dhoni <span class="text-sm text-blue-600  material-symbols-outlined text-3xl ">
                                     verified
                                     </span></p>
@@ -352,14 +356,14 @@
                 </div>
 
 
-                <div class="contentCard  px-2 py-[-40px] hover:bg-gray-800 hover:cursor-pointer mb-[-20px]">
+                <div class="contentCard py-4  px-2  hover:bg-gray-800 hover:cursor-pointer ">
                     <div class="flex items-center space-x-12 ">
                         <div class="profileContent flex items-center ">
                             <div class="img rounded-full ">
-                                <img src="lg.png" alt="">
+                                <img class="rounded-full" src="https://pbs.twimg.com/profile_images/1700051019525488640/VRqy0bTE_normal.jpg" alt="">
                             </div>
-                            <div class="content">
-                                <p class="text-sm">Abhishek Prajapati  <span class="text-sm text-blue-600 material-symbols-outlined text-3xl ">
+                            <div class="content px-2">
+                                <p class="text-sm">Narendra Modi <span class="text-sm text-blue-600 material-symbols-outlined text-3xl ">
                                     verified
                                     </span></p>
                                  <p class="text-gray-600">@abhishekprajapati</p>
